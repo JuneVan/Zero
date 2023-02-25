@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description>Zero EntityFrameworkCore扩展类库</Description>
+		<Title>Zero.EntityFrameworkCore</Title>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.13" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Zero\Zero.csproj" />
+	</ItemGroup>
+
+</Project>
